@@ -13,13 +13,7 @@ def on_press_any_key(key):
 listener = keyboard.Listener(on_press=on_press_any_key)
 listener.start()
    
-"""
 mouse = MouseMovement() 
-
-    while running:
-        mouse.move_cursor()
-        time.sleep(1/120) 
-"""
-if __name__ == "__main__":
-
-    print(mouse.position)
+while running:
+    mouse.move_cursor()
+    time.sleep(1/120) 
